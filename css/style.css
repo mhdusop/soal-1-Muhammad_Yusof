@@ -1,0 +1,65 @@
+body,
+html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   font-family: Arial, sans-serif;
+}
+
+#inputString {
+   width: 13rem;
+   padding: 6px 12px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid #ced4da;
+   appearance: none;
+   border-radius: 4px;
+   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#inputString:focus {
+   color: #212529;
+   background-color: #fff;
+   border-color: #86b7fe;
+   outline: 0;
+   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.btnCheck {
+   border: 0;
+   outline: 0;
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   background-color: rgb(110, 205, 252);
+   box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+   border-radius: 4px;
+   font-size: 14px;
+   font-weight: 500;
+   padding: 10px 8px;
+   margin-top: 10px;
+   display: inline-block;
+   min-height: 28px;
+   transition: background-color .24s, box-shadow .24s;
+}
+
+.btnCheck:hover {
+   box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   text-align: center;
+}
+
+#result {
+   font-size: large;
+   font-weight: 500;
+}
